@@ -27,10 +27,8 @@ export const MenuSection = () => {
         <SectionTitle>
           L&apos;excellence de la gastronomie
           <br />
-          <span className="mx-10 text-sm font-mono lg:block hidden">
-            AUTHENTIQUE
-          </span>{" "}
-          coréenne à portée de main
+          <span className="hidden md:inline mx-10 text-sm font-mono">AUTHENTIQUE</span> coréenne
+          à portée de main
         </SectionTitle>
 
         <div className="flex gap-10 absolute right-10">
