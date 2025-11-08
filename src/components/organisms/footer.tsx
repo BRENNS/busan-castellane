@@ -78,6 +78,17 @@ export const Footer = () => {
               <br />
               France
             </address>
+            <div className="pt-2 border-t border-white/10">
+              <p className="text-white/60 text-xs tracking-wide leading-relaxed">
+                Parking à tarif réduit
+                <br />
+                <span className="text-white/50">
+                  1h30 à 3,70€ au lieu de 5,50€
+                  <br />
+                  Demandez en caisse
+                </span>
+              </p>
+            </div>
           </div>
         </div>
 

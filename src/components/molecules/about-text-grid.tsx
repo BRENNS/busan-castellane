@@ -4,14 +4,14 @@ export const AboutTextGrid = () => {
   return (
     <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
       <Paragraph>
-        Chef M. Ren Shaolin, 20 ans d&apos;expérience. Notre cuisine coréenne
-        est une philosophie du repas : exigence, goût juste et hygiène
-        exemplaire, pour que chacun reparte comblé par le voyage.
+        Au cœur de Castellane, Busan apporte l&apos;authentique cuisine coréenne
+        à Marseille. Notre restaurant vous transporte en Corée, où chaque plat
+        célèbre une tradition millénaire désormais accessible aux Marseillais.
       </Paragraph>
       <Paragraph>
-        Plus de 60 plats à la carte, du barbecue au kimchi. Une harmonie saine
-        héritière d&apos;une tradition fortifiante. Notre vœu : votre santé… et
-        que BUSAN devienne votre meilleur restaurant coréen.
+        Barbecue coréen, kimchi maison et plus de 60 spécialités authentiques.
+        Chez Busan Castellane, la cuisine coréenne à Marseille devient votre
+        nouvelle référence dans le 6ème arrondissement.
       </Paragraph>
     </div>
   );
