@@ -23,12 +23,14 @@ export const MenuSection = () => {
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center py-14 bg-black text-white">
-      <div className="mx-auto relative flex items-end justify-center w-full mb-16">
+      <div className="mx-auto relative flex items-end justify-center w-full mb-16 px-8 md:px-16 lg:px-18">
         <SectionTitle>
           L&apos;excellence de la gastronomie
           <br />
-          <span className="mx-10 text-sm font-mono">AUTHENTIQUE</span> coréenne
-          à portée de main
+          <span className="mx-10 text-sm font-mono lg:block hidden">
+            AUTHENTIQUE
+          </span>{" "}
+          coréenne à portée de main
         </SectionTitle>
 
         <div className="flex gap-10 absolute right-10">
