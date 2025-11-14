@@ -1,0 +1,28 @@
+# Robots.txt for Busan Castellane Restaurant
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow crawling of admin/private areas (if any)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Sitemap location
+Sitemap: https://busan-castellane.fr/sitemap.xml
+
+# Crawl delay (optional, in seconds)
+# Crawl-delay: 1
