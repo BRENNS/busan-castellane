@@ -78,7 +78,7 @@ type Restaurant = {
 // Restaurant contact information
 export const RESTAURANT_INFO = {
   name: 'Busan Castellane',
-  description: 'Restaurant coréen authentique à Marseille, spécialisé dans le barbecue coréen et les spécialités traditionnelles. Plus de 60 plats authentiques préparés par le Chef Ren Shaolin avec 20 ans d\'expérience.',
+  description: 'Restaurant coréen authentique à Marseille, spécialisé dans le barbecue coréen et les spécialités traditionnelles. Plus de 60 plats authentiques de cuisine coréenne traditionnelle.',
   cuisineType: 'Coréenne',
   priceRange: '€€',
   telephone: '+33491785722',
@@ -296,7 +296,12 @@ export const organizationSchema = {
     telephone: RESTAURANT_INFO.telephone,
     contactType: 'Réservation',
     areaServed: 'FR',
-    availableLanguage: ['fr', 'en', 'ko'],
+    availableLanguage: [
+      'Français',
+      'English',
+      '한국어', // Korean
+      '中文', // Chinese
+    ],
   },
   sameAs: [
     RESTAURANT_INFO.facebookUrl,

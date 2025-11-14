@@ -15,9 +15,10 @@ export const baseMetadata: Metadata = {
     template: '%s | Busan Castellane',
   },
   description:
-    'Restaurant coréen authentique à Marseille Castellane. Découvrez notre barbecue coréen, kimchi maison et +60 spécialités du Chef Ren Shaolin (20 ans d\'expérience). Réservation en ligne. ⭐ 4.6/5 (650 avis)',
+    'Restaurant coréen authentique à Marseille Castellane. Découvrez notre barbecue coréen, kimchi maison et +60 spécialités traditionnelles. Réservation en ligne. ⭐ 4.6/5 (650 avis)',
 
   keywords: [
+    // Français
     'restaurant coréen Marseille',
     'BBQ coréen Marseille',
     'restaurant Castellane',
@@ -28,8 +29,24 @@ export const baseMetadata: Metadata = {
     'Busan Castellane',
     'spécialités coréennes',
     'restaurant Marseille 6ème',
-    'korean restaurant Marseille',
     'réservation restaurant coréen',
+
+    // English
+    'Korean restaurant Marseille',
+    'Korean BBQ Marseille',
+    'authentic Korean food',
+    'Korean cuisine Marseille',
+
+    // 中文 (Chinese)
+    '马赛韩国餐厅',
+    '韩国烤肉',
+    '正宗韩国料理',
+
+    // 한국어 (Korean)
+    '마르세유 한국 레스토랑',
+    '한식당',
+    '한국 바베큐',
+    '정통 한식',
   ],
 
   authors: [{ name: 'Busan Castellane' }],
@@ -117,13 +134,15 @@ export const baseMetadata: Metadata = {
     site: '@BusanCastellane',
   },
 
-  // Alternate languages (if multilingual site)
+  // Alternate languages
   alternates: {
     canonical: RESTAURANT_INFO.url,
     languages: {
       'fr-FR': RESTAURANT_INFO.url,
-      // 'en-US': `${RESTAURANT_INFO.url}/en`, // Add if English version exists
-      // 'ko-KR': `${RESTAURANT_INFO.url}/ko`, // Add if Korean version exists
+      'en-US': RESTAURANT_INFO.url, // French site accessible to English speakers
+      'ko-KR': RESTAURANT_INFO.url, // French site accessible to Korean speakers
+      'zh-CN': RESTAURANT_INFO.url, // French site accessible to Chinese speakers
+      'x-default': RESTAURANT_INFO.url, // Default for all other languages
     },
   },
 
