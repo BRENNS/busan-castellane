@@ -1,17 +1,18 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Paragraph } from "@/src/components/atoms/paragraph";
 
 export const AboutTextGrid = () => {
+  const t = useTranslations();
+
   return (
     <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
       <Paragraph>
-        Au cœur de Castellane, Busan apporte l&apos;authentique cuisine coréenne
-        à Marseille. Notre restaurant vous transporte en Corée, où chaque plat
-        célèbre une tradition millénaire désormais accessible aux Marseillais.
+        {t('about-description-1')}
       </Paragraph>
       <Paragraph>
-        Barbecue coréen, kimchi maison et plus de 60 spécialités authentiques.
-        Chez Busan Castellane, la cuisine coréenne à Marseille devient votre
-        nouvelle référence dans le 6ème arrondissement.
+        {t('about-description-2')}
       </Paragraph>
     </div>
   );

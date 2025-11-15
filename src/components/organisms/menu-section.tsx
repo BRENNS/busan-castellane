@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { useTranslations } from "next-intl";
 import { SectionTitle } from "@/src/components/atoms/section-title";
 import { ArrowButton } from "@/src/components/atoms/arrow-button";
 import {
@@ -9,8 +10,10 @@ import {
 } from "@/src/components/molecules/menu-carousel";
 import { Button } from "@/src/components/ui/button";
 import { cn } from "@/src/utils/cn";
+import Link from "next/link";
 
 export const MenuSection = () => {
+  const t = useTranslations();
   const carouselRef = useRef<MenuCarouselRef>(null);
 
   const handlePrevious = () => {
@@ -25,10 +28,9 @@ export const MenuSection = () => {
     <div className="min-h-screen w-full flex flex-col items-center py-14 bg-black text-white">
       <div className="mx-auto relative flex items-end justify-center w-full mb-16 px-8 md:px-16 lg:px-18">
         <SectionTitle>
-          L&apos;excellence de la gastronomie
+          {t('menu-title')}
           <br />
-          <span className="hidden md:inline mx-10 text-sm font-mono">AUTHENTIQUE</span> coréenne
-          à portée de main
+          {t('menu-subtitle')}
         </SectionTitle>
 
         <div className="flex gap-10 absolute right-10">
@@ -43,6 +45,7 @@ export const MenuSection = () => {
       </div>
 
       <Button
+        asChild
         variant="outline"
         size="lg"
         className={cn(
@@ -51,7 +54,13 @@ export const MenuSection = () => {
           "transition-all duration-300",
         )}
       >
-        Voir le menu
+        <Link
+          href="https://app.suzzyapp.com/shop/92472975-5399-497b-a63d-75f4c43d4de9/dine-in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('menu-cta')}
+        </Link>
       </Button>
     </div>
   );

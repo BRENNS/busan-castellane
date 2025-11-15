@@ -1,8 +1,13 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Button } from "@/src/components/ui/button";
 import { cn } from "@/src/utils/cn";
 import Link from "next/link";
 
 export const HeroCTA = () => {
+  const t = useTranslations();
+
   return (
     <div className="flex flex-col gap-4 sm:flex-row sm:gap-6 md:gap-10">
       {/* Action primaire */}
@@ -20,7 +25,7 @@ export const HeroCTA = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Réserver
+          {t('hero-cta-reserve')}
         </Link>
       </Button>
 
@@ -40,7 +45,7 @@ export const HeroCTA = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Voir le menu
+          {t('hero-cta-menu')}
         </Link>
       </Button>
     </div>
