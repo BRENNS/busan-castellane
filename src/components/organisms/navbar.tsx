@@ -3,12 +3,20 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import Logo from "@/public/assets/logo.jpg";
 import { Button } from "@/src/components/ui/button";
 import { cn } from "@/src/utils/cn";
+import { LanguageToggle } from "@/src/components/molecules/language-toggle";
+import type { Locale } from "@/src/utils/i18n/types";
 
-export const Navbar = () => {
+interface NavbarProps {
+  currentLocale: Locale;
+}
+
+export const Navbar = ({ currentLocale }: NavbarProps) => {
   const [isVisible, setIsVisible] = useState(false);
+  const t = useTranslations();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,7 +53,9 @@ export const Navbar = () => {
         </div>
 
         {/* Navigation */}
-        <div className="flex items-center gap-4 md:gap-8">
+        <div className="flex items-center gap-4 md:gap-6">
+          <LanguageToggle currentLocale={currentLocale} />
+
           <Button
             asChild
             variant="ghost"
@@ -56,7 +66,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Menu
+              {t('nav-menu')}
             </Link>
           </Button>
 
@@ -74,7 +84,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Réserver
+              {t('nav-reservation')}
             </Link>
           </Button>
         </div>

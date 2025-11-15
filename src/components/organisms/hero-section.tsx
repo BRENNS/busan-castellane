@@ -5,11 +5,11 @@ import { HeroContent } from "@/src/components/molecules/hero-content";
 
 export const HeroSection = () => {
   return (
-    <section className="relative h-[100dvh]">
+    <section className="relative h-[100dvh]" aria-label="Bienvenue au Restaurant Busan Castellane">
       {/* Image Hero avec priority pour le LCP */}
       <Image
         src={HeroImg}
-        alt="Restaurant Busan Castellane à Marseille"
+        alt="Restaurant coréen Busan Castellane à Marseille - Barbecue coréen authentique et spécialités traditionnelles"
         fill
         priority
         sizes="100vw"

@@ -1,0 +1,45 @@
+{
+  "nav-home": "Home",
+  "nav-about": "About",
+  "nav-menu": "Menu",
+  "nav-contact": "Contact",
+  "nav-reservation": "Reservation",
+
+  "hero-title": "Busan Castellane",
+  "hero-subtitle": "Authentic Korean Restaurant in Marseille",
+  "hero-cta-reserve": "Reserve a table",
+  "hero-cta-menu": "View menu",
+
+  "about-title": "Who we are",
+  "about-description-1": "Discover the authenticity of Korean cuisine in the heart of Marseille. Our restaurant offers over 60 traditional specialties prepared with passion.",
+  "about-description-2": "From our Korean BBQ to our homemade kimchi, each dish is an invitation to a culinary journey to Korea.",
+
+  "menu-title": "Our Menu",
+  "menu-subtitle": "Discover our Korean specialties",
+  "menu-cta": "View full menu",
+
+  "cta-title": "Ready to discover?",
+  "cta-reserve-title": "Reserve",
+  "cta-reserve-desc": "Book your table online",
+  "cta-menu-title": "Menu",
+  "cta-menu-desc": "Browse our menu",
+  "cta-directions-title": "Directions",
+  "cta-directions-desc": "Get directions",
+
+  "footer-navigation": "Navigation",
+  "footer-contact": "Contact",
+  "footer-hours": "Hours",
+  "footer-address": "Address",
+  "footer-hours-lunch": "Lunch: 12:00 PM – 2:30 PM",
+  "footer-hours-dinner": "Dinner: 7:00 PM – 10:30 PM",
+  "footer-hours-days": "Monday – Saturday",
+  "footer-parking": "Reduced parking rate",
+  "footer-parking-detail": "1h30 for €3.70 instead of €5.50",
+  "footer-parking-ask": "Ask at checkout",
+  "footer-made-by": "Made with love by",
+
+  "common-phone": "Phone",
+  "common-email": "Email",
+  "common-loading": "Loading...",
+  "common-close": "Close"
+}

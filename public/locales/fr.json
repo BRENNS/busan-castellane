@@ -1,0 +1,45 @@
+{
+  "nav-home": "Accueil",
+  "nav-about": "À Propos",
+  "nav-menu": "Menu",
+  "nav-contact": "Contact",
+  "nav-reservation": "Réserver",
+
+  "hero-title": "Busan Castellane",
+  "hero-subtitle": "Restaurant Coréen Authentique à Marseille",
+  "hero-cta-reserve": "Réserver une table",
+  "hero-cta-menu": "Voir le menu",
+
+  "about-title": "Qui sommes-nous",
+  "about-description-1": "Découvrez l'authenticité de la cuisine coréenne au cœur de Marseille. Notre restaurant propose plus de 60 spécialités traditionnelles préparées avec passion.",
+  "about-description-2": "De notre barbecue coréen à notre kimchi maison, chaque plat est une invitation au voyage culinaire en Corée.",
+
+  "menu-title": "Notre Menu",
+  "menu-subtitle": "Découvrez nos spécialités coréennes",
+  "menu-cta": "Voir le menu complet",
+
+  "cta-title": "Prêt à découvrir ?",
+  "cta-reserve-title": "Réserver",
+  "cta-reserve-desc": "Réservez votre table en ligne",
+  "cta-menu-title": "Menu",
+  "cta-menu-desc": "Consultez notre carte",
+  "cta-directions-title": "S'y rendre",
+  "cta-directions-desc": "Obtenir l'itinéraire",
+
+  "footer-navigation": "Navigation",
+  "footer-contact": "Contact",
+  "footer-hours": "Horaires",
+  "footer-address": "Adresse",
+  "footer-hours-lunch": "Midi: 12:00 – 14:30",
+  "footer-hours-dinner": "Soir: 19:00 – 22:30",
+  "footer-hours-days": "Lundi – Samedi",
+  "footer-parking": "Parking à tarif réduit",
+  "footer-parking-detail": "1h30 à 3,70€ au lieu de 5,50€",
+  "footer-parking-ask": "Demandez en caisse",
+  "footer-made-by": "Fait avec le cœur par",
+
+  "common-phone": "Téléphone",
+  "common-email": "Email",
+  "common-loading": "Chargement...",
+  "common-close": "Fermer"
+}

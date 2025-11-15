@@ -1,0 +1,45 @@
+{
+  "nav-home": "홈",
+  "nav-about": "소개",
+  "nav-menu": "메뉴",
+  "nav-contact": "연락처",
+  "nav-reservation": "예약",
+
+  "hero-title": "부산 카스텔란",
+  "hero-subtitle": "마르세유의 정통 한식당",
+  "hero-cta-reserve": "테이블 예약",
+  "hero-cta-menu": "메뉴 보기",
+
+  "about-title": "우리는 누구인가",
+  "about-description-1": "마르세유 중심부에서 정통 한식의 진수를 만나보세요. 저희 레스토랑은 정성껏 준비한 60가지 이상의 전통 요리를 제공합니다.",
+  "about-description-2": "한국식 바비큐부터 직접 만든 김치까지, 모든 요리는 한국으로의 미식 여행에 초대합니다.",
+
+  "menu-title": "메뉴",
+  "menu-subtitle": "한식 특선 요리를 만나보세요",
+  "menu-cta": "전체 메뉴 보기",
+
+  "cta-title": "준비되셨나요?",
+  "cta-reserve-title": "예약",
+  "cta-reserve-desc": "온라인으로 테이블 예약",
+  "cta-menu-title": "메뉴",
+  "cta-menu-desc": "메뉴 둘러보기",
+  "cta-directions-title": "찾아오기",
+  "cta-directions-desc": "길 안내",
+
+  "footer-navigation": "내비게이션",
+  "footer-contact": "연락처",
+  "footer-hours": "영업시간",
+  "footer-address": "주소",
+  "footer-hours-lunch": "점심: 12:00 – 14:30",
+  "footer-hours-dinner": "저녁: 19:00 – 22:30",
+  "footer-hours-days": "월요일 – 토요일",
+  "footer-parking": "주차 할인",
+  "footer-parking-detail": "1시간 30분 €3.70, 정상가 €5.50",
+  "footer-parking-ask": "계산대에 문의하세요",
+  "footer-made-by": "정성껏 만든",
+
+  "common-phone": "전화",
+  "common-email": "이메일",
+  "common-loading": "로딩 중...",
+  "common-close": "닫기"
+}

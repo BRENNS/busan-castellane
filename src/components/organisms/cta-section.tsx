@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { OpeningHours } from "@/src/components/molecules/opening-hours";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +11,7 @@ import { cn } from "@/src/utils/cn";
 import { Button } from "@/src/components/ui/button";
 
 export const CTASection = () => {
+  const t = useTranslations();
   return (
     <section className="min-h-screen bg-black flex flex-col">
       {/* Header avec logo, horaires et adresse */}
@@ -20,7 +24,7 @@ export const CTASection = () => {
         <div className="w-56 h-56 relative border-white border overflow-hidden group cursor-pointer">
           <Image
             src={reservationImage}
-            alt="Réserver"
+            alt={t('cta-reserve-title')}
             fill
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
@@ -41,7 +45,7 @@ export const CTASection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Réserver
+                {t('cta-reserve-title')}
               </Link>
             </Button>
           </div>
@@ -51,7 +55,7 @@ export const CTASection = () => {
         <div className="w-56 h-56 relative border-white border overflow-hidden group cursor-pointer">
           <Image
             src={menuImage}
-            alt="Voir le menu"
+            alt={t('cta-menu-title')}
             fill
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
@@ -72,7 +76,7 @@ export const CTASection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Voir le menu
+                {t('cta-menu-title')}
               </Link>
             </Button>
           </div>
@@ -82,7 +86,7 @@ export const CTASection = () => {
         <div className="w-56 h-56 relative border-white border overflow-hidden group cursor-pointer">
           <Image
             src={directionImage}
-            alt="S'y rendre"
+            alt={t('cta-directions-title')}
             fill
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
@@ -103,7 +107,7 @@ export const CTASection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                S&apos;y rendre
+                {t('cta-directions-title')}
               </Link>
             </Button>
           </div>
