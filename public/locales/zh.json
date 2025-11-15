@@ -1,0 +1,45 @@
+{
+  "nav-home": "主页",
+  "nav-about": "关于我们",
+  "nav-menu": "菜单",
+  "nav-contact": "联系方式",
+  "nav-reservation": "预订",
+
+  "hero-title": "釜山卡斯特兰",
+  "hero-subtitle": "马赛正宗韩国餐厅",
+  "hero-cta-reserve": "预订餐桌",
+  "hero-cta-menu": "查看菜单",
+
+  "about-title": "关于我们",
+  "about-description-1": "在马赛市中心探索正宗韩国美食。我们的餐厅提供60多种传统特色菜肴，用心烹制。",
+  "about-description-2": "从我们的韩式烤肉到自制泡菜，每一道菜都是一次韩国美食之旅的邀请。",
+
+  "menu-title": "我们的菜单",
+  "menu-subtitle": "探索我们的韩国特色菜",
+  "menu-cta": "查看完整菜单",
+
+  "cta-title": "准备好探索了吗？",
+  "cta-reserve-title": "预订",
+  "cta-reserve-desc": "在线预订餐桌",
+  "cta-menu-title": "菜单",
+  "cta-menu-desc": "浏览我们的菜单",
+  "cta-directions-title": "路线",
+  "cta-directions-desc": "获取路线",
+
+  "footer-navigation": "导航",
+  "footer-contact": "联系方式",
+  "footer-hours": "营业时间",
+  "footer-address": "地址",
+  "footer-hours-lunch": "午餐: 12:00 – 14:30",
+  "footer-hours-dinner": "晚餐: 19:00 – 22:30",
+  "footer-hours-days": "周一至周六",
+  "footer-parking": "停车优惠",
+  "footer-parking-detail": "1小时30分钟€3.70，原价€5.50",
+  "footer-parking-ask": "结账时询问",
+  "footer-made-by": "用心制作",
+
+  "common-phone": "电话",
+  "common-email": "电子邮箱",
+  "common-loading": "加载中...",
+  "common-close": "关闭"
+}

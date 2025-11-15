@@ -1,9 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import "./globals.css";
 import { Navbar } from "@/src/components/organisms/navbar";
 import { baseMetadata } from "@/src/utils/seo/metadata";
 import { getAllSchemas } from "@/src/utils/seo/structured-data";
+import { getLocale } from "@/src/utils/i18n/locale";
+import { timeZone } from "@/src/utils/i18n/config";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -26,16 +30,20 @@ export const viewport: Viewport = {
   themeColor: '#ffffff',
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Get locale and messages for i18n
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   // Get all structured data schemas
   const schemas = getAllSchemas();
 
   return (
-    <html lang="fr">
+    <html lang={locale}>
       <head>
         {/* JSON-LD Structured Data for SEO */}
         {schemas.map((schema, index) => (
@@ -51,8 +59,14 @@ export default function RootLayout({
       <body
         className={`${playfair.variable} ${inter.variable} font-sans antialiased`}
       >
-        <Navbar />
-        {children}
+        <NextIntlClientProvider
+          locale={locale}
+          messages={messages}
+          timeZone={timeZone}
+        >
+          <Navbar currentLocale={locale} />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
