@@ -26,14 +26,14 @@ export const MenuSection = () => {
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center py-14 bg-black text-white">
-      <div className="mx-auto relative flex items-end justify-center w-full mb-16 px-8 md:px-16 lg:px-18">
+      <div className="mx-auto relative flex items-end justify-center w-full mb-16 md:py-0 py-10 px-8 md:px-16 lg:px-18">
         <SectionTitle>
           {t('menu-title')}
           <br />
           {t('menu-subtitle')}
         </SectionTitle>
 
-        <div className="flex gap-10 absolute right-10">
+        <div className="flex gap-10 absolute right-10 lg:bottom-none bottom-0">
           <ArrowButton direction="left" onClick={handlePrevious} />
           <ArrowButton direction="right" onClick={handleNext} />
         </div>

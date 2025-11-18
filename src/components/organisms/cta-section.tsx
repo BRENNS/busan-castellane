@@ -19,7 +19,7 @@ export const CTASection = () => {
         <OpeningHours />
       </div>
 
-      <div className="flex w-full justify-around py-12 px-8">
+      <div className="flex md:flex-row flex-col w-full items-center md:justify-around py-12 px-8">
         {/* Réserver */}
         <div className="w-56 h-56 relative border-white border overflow-hidden group cursor-pointer">
           <Image
