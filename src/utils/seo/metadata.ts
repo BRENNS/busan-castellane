@@ -100,6 +100,13 @@ export const baseMetadata: Metadata = {
       'Restaurant coréen à Marseille Castellane ⭐ 4.6/5 (650 avis). BBQ coréen, kimchi maison, +60 spécialités authentiques. Réservez en ligne !',
     images: [
       {
+        url: `${RESTAURANT_INFO.url}/assets/logo.webp`,
+        width: 1080,
+        height: 1080,
+        alt: 'Logo Busan Castellane',
+        type: 'image/webp',
+      },
+      {
         url: `${RESTAURANT_INFO.url}/assets/hero-background.jpg`,
         width: 1200,
         height: 630,
@@ -113,13 +120,6 @@ export const baseMetadata: Metadata = {
         alt: 'Spécialités coréennes au restaurant Busan Castellane',
         type: 'image/jpeg',
       },
-      {
-        url: `${RESTAURANT_INFO.url}/assets/logo/android-chrome-512x512.png`,
-        width: 512,
-        height: 512,
-        alt: 'Logo Busan Castellane',
-        type: 'image/png',
-      },
     ],
   },
 
@@ -129,7 +129,7 @@ export const baseMetadata: Metadata = {
     title: 'Busan Castellane - Restaurant Coréen à Marseille',
     description:
       '⭐ 4.6/5 (650 avis) Restaurant coréen authentique à Marseille. BBQ coréen, kimchi maison, +60 spécialités. Réservez maintenant !',
-    images: [`${RESTAURANT_INFO.url}/assets/hero-background.jpg`],
+    images: [`${RESTAURANT_INFO.url}/assets/logo.webp`],
     creator: '@BusanCastellane', // Update with actual Twitter handle if available
     site: '@BusanCastellane',
   },
